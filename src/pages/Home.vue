@@ -117,7 +117,7 @@ export default {
       console.log("Vuex currentPlayer:", this.$store.state.currentPlayer);
       this.addRoomPlayer();
       this.amIOnline();
-      this.$router.push("/room");
+      this.$router.push("/eduquiz-backend-test/room");
     },
   },
   beforeMount() {

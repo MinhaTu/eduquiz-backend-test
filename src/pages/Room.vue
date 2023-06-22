@@ -61,7 +61,7 @@ export default {
     gameState(value) {
       if (value === "start") {
         setTimeout(() => {
-          this.$router.push("/game");
+          this.$router.push("/eduquiz-backend-test/game");
         }, 1000);
       }
     },
