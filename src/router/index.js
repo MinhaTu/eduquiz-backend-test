@@ -6,9 +6,9 @@ import Game from "../pages/Game.vue";
 const router = createRouter({
   history: createWebHistory(),
   routes: [
-    { path: "/", component: Home },
-    { path: "/room", component: Room },
-    { path: "/game", component: Game },
+    { path: "/eduquiz-backend-test/", component: Home },
+    { path: "/eduquiz-backend-test/room", component: Room },
+    { path: "/eduquiz-backend-test/game", component: Game },
   ],
 });
 
